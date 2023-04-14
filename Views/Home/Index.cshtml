@@ -1,0 +1,16 @@
+﻿
+@model BHModel
+@{
+    ViewData["Title"] = "NASA App Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome to Brendan's Nasa App Home Page</h1>
+
+
+    <h2>@Model.Title</h2>
+    <p>@Model.Explanation</p>
+    <img class= ="img-fluid" src="@Model.Url" />
+    <p>It is using <a href="https://api.nasa.gov">NASA APOD API</a>.</p>
+</div>
+<!-- Brendan Hannon cps-3330-01 spring2023 hw7 !-->
